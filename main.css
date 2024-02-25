@@ -142,7 +142,7 @@ body {
 }
 
 .gallery__image-container {
-  background-image: url("../images/image-product-1.jpg");
+  background-image: url("/images/camisetas/image-product-1.jpg");
   height: 300px;
   width: 100%;
   background-position-y: 0px;
@@ -150,9 +150,9 @@ body {
 }
 .gallery__previous {
   background-color: orange;
-  width: 35px;
-  height: 35px;
-  padding: 11px;
+  width: 30px;
+  height: 30px;
+  padding: 6px;
   border-radius: 50%;
   position: absolute;
   top: 180px;
@@ -170,9 +170,9 @@ body {
 }
 .gallery__next {
   background-color: orange;
-  width: 35px;
-  height: 35px;
-  padding: 11px;
+  width: 30px;
+  height: 30px;
+  padding: 6px;
   border-radius: 50%;
   position: absolute;
   top: 180px;
@@ -415,7 +415,8 @@ body {
   content: url("../images/icon-close-orange.svg");
 }
 .modal-gallery__image-container {
-  background-image: url("../images/image-product-1.jpg");
+  /* display: none; */
+  background-image: url("/images/camisetas/image-product-1.jpg");
   height: 446px;
   background-size: cover;
   border-radius: 16px;

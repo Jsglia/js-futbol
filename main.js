@@ -41,7 +41,7 @@ addToCartBtn.addEventListener('click', ()=>{
 
 const cartIconBtn = document.querySelector('.header__cart');
 const cartModal = document.querySelector('.cart-modal');
-// let priceModal = document.querySelector('.cart-modal__price');
+let priceModal = document.querySelector('.cart-modal__price');
 const productContainer = document.querySelector('.cart-modal__checkout-container');
 
 
@@ -86,10 +86,10 @@ previousGalleryBtn.addEventListener('click', ()=>{
 
 // // Mostrar el modal de imagenes cuando hago click en la imagen principal
 
-// // const imagesModal = document.querySelector('.modal-gallery__background');
+// const imagesModal = document.querySelector('.modal-gallery__background');
 
-// // imageContainer.addEventListener('click', ()=>{
-// //     // imagesModal.style.display = 'block';
+// imageContainer.addEventListener('click', ()=>{
+//     imagesModal.style.display = 'block';
 
 // });
 
@@ -117,7 +117,7 @@ function changeNextImage(imgContainer){
         imgIndex = 1;
     }
     imgIndex++;
-    imgContainer.style.backgroundImage = `url('../images/image-product-${imgIndex}.jpg')`
+    imgContainer.style.backgroundImage = `url('/images/camisetas/image-product-${imgIndex}.jpg')`
 }
 
 function changePreviousImage(imgContainer){
@@ -125,7 +125,7 @@ function changePreviousImage(imgContainer){
         imgIndex = 4;
     }
     imgIndex--;
-    imgContainer.style.backgroundImage = `url('../images/image-product-${imgIndex}.jpg')`
+    imgContainer.style.backgroundImage = `url('/images/camisetas/image-product-${imgIndex}.jpg')`
 }
 
 
