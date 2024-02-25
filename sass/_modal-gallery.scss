@@ -5,8 +5,8 @@
     width: 550px;
     &__background{
         @include mixins.modal-background;
-        // border: 2px solid red;
-        display: none;
+        border: 20px solid red;
+        // display: none;
         place-content: center;
     }
     &__close-container{

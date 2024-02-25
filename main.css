@@ -400,7 +400,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: 1;
-  display: none;
+  border: 20px solid red;
   place-content: center;
 }
 .modal-gallery__close-container {
@@ -494,6 +494,17 @@ body {
     padding: 90px 50px;
     gap: 124px;
   }
+}
+
+.show {
+  display: block;
+}
+
+.cart-empty {
+  font-weight: 700px;
+  color: hsla(0deg, 0%, 0%, 0.5);
+  text-align: center;
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */
