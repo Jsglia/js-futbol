@@ -88,10 +88,10 @@ previousGalleryBtn.addEventListener('click', ()=>{
 
 const imagesModal = document.querySelector('.modal-gallery__background');
 
-// imageContainer.addEventListener('click', ()=>{
-//     imagesModal.style.display = 'block';
+imageContainer.addEventListener('click', ()=>{
+    imagesModal.style.display = 'block';
 
-// });
+});
 
 
 //FUNCIONES
