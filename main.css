@@ -137,6 +137,7 @@ body {
   font-weight: 700;
   font-size: 1.1em;
 }
+
 .modal-navbar__close-icon:hover {
   cursor: pointer;
 }
@@ -391,16 +392,17 @@ body {
 
 .modal-gallery {
   width: 550px;
+  display: none;
 }
 .modal-gallery__background {
-  background-color: hsla(0deg, 0%, 0%, 0.5);
+  /* background-color: hsla(0deg, 0%, 0%, 0.5); */
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: 1;
-  border: 20px solid red;
+  /* border: 20px solid red; */
   place-content: center;
 }
 .modal-gallery__close-container {

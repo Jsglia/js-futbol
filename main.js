@@ -86,7 +86,7 @@ previousGalleryBtn.addEventListener('click', ()=>{
 
 // // Mostrar el modal de imagenes cuando hago click en la imagen principal
 
-// const imagesModal = document.querySelector('.modal-gallery__background');
+const imagesModal = document.querySelector('.modal-gallery__background');
 
 // imageContainer.addEventListener('click', ()=>{
 //     imagesModal.style.display = 'block';
